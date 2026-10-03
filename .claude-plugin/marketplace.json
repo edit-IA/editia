@@ -1,0 +1,17 @@
+{
+  "name": "editia",
+  "description": "EDIT.IA — prepara o computador do aluno para editar vídeo com IA.",
+  "owner": { "name": "EDIT.IA" },
+  "plugins": [
+    {
+      "name": "editia",
+      "description": "EDIT.IA: prepara o computador do aluno para editar vídeo com IA (Aula 1).",
+      "version": "0.0.1",
+      "source": {
+        "source": "archive",
+        "url": "https://github.com/edit-IA/editia/releases/download/v0.0.1/editia-0.0.1.zip",
+        "sha256": "a0555b6fdf1cc52d23498e67c258f8a5be2693c9fbda4dac37baed5436b204cf"
+      }
+    }
+  ]
+}
