@@ -1,0 +1,11 @@
+{
+  "name": "editia-teste-remotion",
+  "private": true,
+  "description": "Projeto mínimo do EDIT.IA: prova que o Remotion renderiza vídeo nesta máquina.",
+  "dependencies": {
+    "@remotion/cli": "4.0.527",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "remotion": "4.0.527"
+  }
+}

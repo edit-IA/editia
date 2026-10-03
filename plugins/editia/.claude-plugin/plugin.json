@@ -1,6 +1,8 @@
 {
   "name": "editia",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "EDIT.IA: prepara o computador do aluno para editar vídeo com IA (Aula 1).",
-  "author": { "name": "EDIT.IA" }
+  "author": {
+    "name": "EDIT.IA"
+  }
 }

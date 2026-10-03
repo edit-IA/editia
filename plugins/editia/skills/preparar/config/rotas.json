@@ -1,1 +1,74 @@
-{"_prototipo": true, "macos": {}, "windows": {}}
+{
+  "_sobre": "Comandos de instalação por sistema. O juiz.py lê este arquivo; trocar uma rota não exige mudar código.",
+  "macos": {
+    "homebrew_humano": "/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"",
+    "ffmpeg": [
+      "{brew}",
+      "install",
+      "ffmpeg"
+    ],
+    "node": [
+      "{brew}",
+      "install",
+      "node"
+    ],
+    "deno": [
+      "{brew}",
+      "install",
+      "deno"
+    ]
+  },
+  "windows": {
+    "ffmpeg": [
+      "winget",
+      "install",
+      "--id",
+      "Gyan.FFmpeg",
+      "-e",
+      "--accept-package-agreements",
+      "--accept-source-agreements"
+    ],
+    "node": [
+      "winget",
+      "install",
+      "--id",
+      "OpenJS.NodeJS.LTS",
+      "-e",
+      "--accept-package-agreements",
+      "--accept-source-agreements"
+    ],
+    "deno": [
+      "winget",
+      "install",
+      "--id",
+      "DenoLand.Deno",
+      "-e",
+      "--accept-package-agreements",
+      "--accept-source-agreements"
+    ]
+  },
+  "comum": {
+    "uv_macos": "curl -LsSf https://astral.sh/uv/install.sh | sh",
+    "uv_windows": "powershell -ExecutionPolicy ByPass -c \"irm https://astral.sh/uv/install.ps1 | iex\"",
+    "watchskill": [
+      "{uv}",
+      "tool",
+      "install",
+      "--python",
+      "3.12",
+      "--force",
+      "-c",
+      "{versoes_watchskill}",
+      "{pacote_watchskill}"
+    ],
+    "ytdlp": [
+      "{uv}",
+      "tool",
+      "install",
+      "--python",
+      "3.12",
+      "--force",
+      "yt-dlp"
+    ]
+  }
+}

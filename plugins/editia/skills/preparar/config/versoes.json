@@ -1,1 +1,31 @@
-{"_prototipo": true}
+{
+  "kit": "0.1.0",
+  "python": "3.12",
+  "node_minimo": 18,
+  "watch_skill": {
+    "pacote": "watch-skill[standard,whisper,ocr]==1.4.3",
+    "versao_minima": "1.4.3",
+    "modelo_transcricao": "medium",
+    "nome_mcp": "watch-skill"
+  },
+  "remotion": {
+    "composicao": "EditiaTeste",
+    "fps": 30,
+    "folga_segundos": 1.5,
+    "largura": 720,
+    "altura": 1280
+  },
+  "teste": {
+    "frase": "Olá. Este é o teste do Edit IA. Sua máquina está pronta para editar vídeos com inteligência artificial. Vamos começar.",
+    "palavras_chave": [
+      "teste",
+      "maquina",
+      "pronta",
+      "editar",
+      "videos"
+    ],
+    "minimo_palavras_chave": 3,
+    "texto_na_tela": "EDITIA",
+    "link": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
+  }
+}
