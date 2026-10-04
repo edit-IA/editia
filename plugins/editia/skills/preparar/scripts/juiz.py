@@ -561,7 +561,8 @@ def verificar(somente: str | None) -> int:
     print("===EDITIA_JSON===")
     print(json.dumps({"resultado": estado["resultado"], "sistema": SO, "proximo": proximo,
                       "itens": itens, "log": str(LOG)}, ensure_ascii=False))
-    return 0 if pronto else 1
+    # sempre 0: o veredito vai no checklist/JSON. Código 1 faz o app mostrar "falha" num diagnóstico normal.
+    return 0
 
 
 def imprimir_checklist(itens: dict, pronto: bool) -> None:

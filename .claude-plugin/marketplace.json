@@ -8,11 +8,11 @@
     {
       "name": "editia",
       "description": "EDIT.IA: prepara o computador do aluno para editar vídeo com IA (Aula 1).",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "source": {
         "source": "archive",
-        "url": "https://github.com/edit-IA/editia/releases/download/v0.1.0/editia-0.1.0.zip",
-        "sha256": "5fb70124c28a4d806be8d11c2dc3f0f68667a73cd15fb3e3d3aca1650b067df1"
+        "url": "https://github.com/edit-IA/editia/releases/download/v0.1.1/editia-0.1.1.zip",
+        "sha256": "22540587407a761532ae23facf0286f3ce39d112bbdc02bf07fa43b37548a97c"
       }
     }
   ]
